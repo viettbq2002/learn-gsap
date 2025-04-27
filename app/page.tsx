@@ -1,8 +1,7 @@
 "use client";
 import { useGSAP } from "@gsap/react";
 import gsap from "gsap";
-import Image from "next/image";
-import { useEffect, useRef } from "react";
+import { useRef } from "react";
 
 export default function Home() {
   const boxRef = useRef<HTMLDivElement>(null);
